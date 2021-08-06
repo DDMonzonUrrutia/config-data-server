@@ -1,0 +1,12 @@
+#Application
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  data:
+    mongodb: uri:mongodb+srv://root:everbootpass2021@firstcluster.k6x6t.mongodb.net/clients-service
+
+dbname: clients-service
+
