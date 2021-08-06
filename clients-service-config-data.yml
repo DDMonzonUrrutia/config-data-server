@@ -1,4 +1,6 @@
 #Application
+port: 8081
+
 server:
   error:
     include-message: always
@@ -6,7 +8,8 @@ server:
 
 spring:
   data:
-    mongodb: uri:mongodb+srv://root:everbootpass2021@firstcluster.k6x6t.mongodb.net/clients-service
+    mongodb:
+      uri: mongodb+srv://root:everbootpass2021@firstcluster.k6x6t.mongodb.net/clients-service
 
 dbname: clients-service
 
