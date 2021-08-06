@@ -2,8 +2,6 @@ server:
   port: 8761
 
 eureka:
-  datacenter: upc
-  environment: development
   instance:
     hostname: localhost
   client:
