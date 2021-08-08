@@ -1,11 +1,8 @@
-server:
-  port: 8761
-
 eureka:
   instance:
-    hostname: localhost
+    hostname: eureka-server2.mybluemix.net
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: https://${eureka.instance.hostname}/eureka/
