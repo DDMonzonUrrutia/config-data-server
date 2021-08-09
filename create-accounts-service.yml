@@ -8,9 +8,9 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://root:everbootpass2021@firstcluster.k6x6t.mongodb.net/create-accounts-service
+      uri: mongodb+srv://root:everbootpass2021@firstcluster.k6x6t.mongodb.net/create-accounts
 
-dbname: create-accounts-service
+dbname: create-accounts
 
 logging:
   pattern:
